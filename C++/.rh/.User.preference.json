@@ -1,0 +1,119 @@
+{
+  "recent-files::internal:document": [{
+    "title": "Operator_Switch",
+    "path": "D:/Dev/Chm/C++/contents/Operators/Operator_Switch.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:26 PM"
+  }, {
+    "title": "CHM",
+    "path": "D:/Dev/Chm/C++/publish/presets/CHM.preset",
+    "pinned": false,
+    "time": "Sep 30, 2:24 PM"
+  }, {
+    "title": "Arrays",
+    "path": "D:/Dev/Chm/C++/contents/Arrays.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:23 PM"
+  }, {
+    "title": "Condition",
+    "path": "D:/Dev/Chm/C++/contents/Condition.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:23 PM"
+  }, {
+    "title": "Cycles",
+    "path": "D:/Dev/Chm/C++/contents/Cycles.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:23 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:23 PM"
+  }, {
+    "title": "Variables",
+    "path": "D:/Dev/Chm/C++/contents/Variables.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:23 PM"
+  }, {
+    "title": "ASCII_table",
+    "path": "D:/Dev/Chm/C++/contents/Reference_materials/ASCII_table.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:34 PM"
+  }, {
+    "title": "First_Topic",
+    "path": "D:/Dev/Chm/C++/contents/First_Topic.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:01 PM"
+  }, {
+    "title": "massive",
+    "path": "D:/Dev/Chm/C++/contents/massive.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:01 PM"
+  }, {
+    "title": "Таблица_ASCII",
+    "path": "D:/Dev/Chm/C++/contents/Справочные_материалы/Таблица_ASCII.htm",
+    "pinned": false,
+    "time": "Sep 30, 11:50 AM"
+  }, {
+    "title": "Типы_данных",
+    "path": "D:/Dev/Chm/C++/contents/Типы_данных.htm",
+    "pinned": false,
+    "time": "Sep 30, 11:49 AM"
+  }, {
+    "title": "default",
+    "path": "D:/Dev/Chm/C++/contents/assets/css/default.css",
+    "pinned": false,
+    "time": "Sep 29, 5:39 PM"
+  }],
+  "generate.outputs": {
+    "D:/Dev/Chm/C++/publish/presets/CHM.preset": {
+      "exists": true,
+      "path": "D:/Dev/Chm/output/C++/C++.chm",
+      "time": "2021-09-30T14:26:47+05:00",
+      "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
+    },
+    "D:/Dev/Chm/C++/publish/presets/eBook.preset": {
+      "exists": true,
+      "path": "C:/Users/User/Documents/My RoboHelp Projects/outputs/C++/eBook/Default.epub",
+      "time": "2021-09-29T18:01:22+05:00",
+      "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/eBook.ehtml"
+    }
+  },
+  "recent-files::internal:hyperlink": [{
+    "title": "Variables",
+    "path": "D:/Dev/Chm/C++/contents/Variables.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:24 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Sep 30, 2:21 PM"
+  }, {
+    "title": "Cycles",
+    "path": "D:/Dev/Chm/C++/contents/Cycles.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:37 PM"
+  }, {
+    "title": "Типы_данных",
+    "path": "D:/Dev/Chm/C++/contents/Типы_данных.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:25 PM"
+  }, {
+    "title": "massive",
+    "path": "D:/Dev/Chm/C++/contents/massive.htm",
+    "pinned": false,
+    "time": "Sep 30, 1:01 PM"
+  }, {
+    "title": "Массивы",
+    "path": "D:/Dev/Chm/C++/contents/Массивы.htm",
+    "pinned": false,
+    "time": "Sep 30, 12:50 PM"
+  }],
+  "recent-files::external:hyperlink": [{
+    "title": "QWERTY",
+    "path": "https://ru.wikipedia.org/wiki/QWERTY",
+    "pinned": false,
+    "time": "Sep 30, 1:34 PM"
+  }]
+}

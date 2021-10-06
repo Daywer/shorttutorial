@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>C++</title>
+  <content>
+    <toc>
+      <path>../../toc/Default.toc</path>
+      <name>Default</name>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/Default.glo</path>
+    </glossary>
+    <language>
+      <name>ru_RU</name>
+      <code type="number">2073</code>
+      <displayName>Russian (Russia)</displayName>
+    </language>
+    <masterpage>
+      <path>../../contents/assets/masterpages/book.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>chm</type>
+  <outputPath>D:/Dev/Chm/output/C++/</outputPath>
+  <name>CHM</name>
+  <starterPage>C++.chm</starterPage>
+  <defaultTopic>
+    <name>Variables.htm</name>
+    <path>../../contents/Variables.htm</path>
+  </defaultTopic>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>
