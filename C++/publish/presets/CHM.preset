@@ -10,6 +10,7 @@
     <index type="boolean">true</index>
     <glossary>
       <path>../../glossary/Default.glo</path>
+      <name>Default</name>
     </glossary>
     <language>
       <name>ru_RU</name>
@@ -18,16 +19,17 @@
     </language>
     <masterpage>
       <path>../../contents/assets/masterpages/book.htt</path>
+      <name>book</name>
     </masterpage>
     <includeExpandingText type="boolean">true</includeExpandingText>
     <includeDropdownText type="boolean">true</includeDropdownText>
   </content>
   <type>chm</type>
-  <outputPath>D:/Dev/Chm/output/C++/</outputPath>
+  <outputPath>D:/Dev/Chm/shorttutorial/output/C++/</outputPath>
   <name>CHM</name>
   <starterPage>C++.chm</starterPage>
   <defaultTopic>
-    <name>Variables.htm</name>
+    <name>Variables</name>
     <path>../../contents/Variables.htm</path>
   </defaultTopic>
   <search>

@@ -1,5 +1,10 @@
 {
   "recent-files::internal:document": [{
+    "title": "CHM",
+    "path": "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset",
+    "pinned": false,
+    "time": "Oct 7, 12:46 PM"
+  }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/C++/contents/Operators/Operator_Switch.htm",
     "pinned": false,
@@ -77,6 +82,12 @@
       "path": "C:/Users/User/Documents/My RoboHelp Projects/outputs/C++/eBook/Default.epub",
       "time": "2021-09-29T18:01:22+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/eBook.ehtml"
+    },
+    "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
+      "exists": true,
+      "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
+      "time": "2021-10-07T12:47:02+05:00",
+      "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
   "recent-files::internal:hyperlink": [{
