@@ -1,5 +1,35 @@
 {
   "recent-files::internal:document": [{
+    "title": "Condition",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
+    "pinned": false,
+    "time": "Oct 8, 7:07 PM"
+  }, {
+    "title": "Cycles",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
+    "pinned": false,
+    "time": "Oct 8, 7:07 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Oct 8, 6:43 PM"
+  }, {
+    "title": "Variables",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
+    "pinned": false,
+    "time": "Oct 8, 6:41 PM"
+  }, {
+    "title": "ASCII_table",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
+    "pinned": false,
+    "time": "Oct 8, 6:40 PM"
+  }, {
+    "title": "Arrays",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
+    "pinned": false,
+    "time": "Oct 8, 6:31 PM"
+  }, {
     "title": "CHM",
     "path": "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset",
     "pinned": false,
@@ -7,11 +37,6 @@
   }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Operator_Switch.htm",
-    "pinned": false,
-    "time": "Oct 8, 6:16 PM"
-  }, {
-    "title": "Condition",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
     "pinned": false,
     "time": "Oct 8, 6:16 PM"
   }, {
@@ -96,7 +121,7 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2021-10-08T18:29:29+05:00",
+      "time": "2021-10-08T19:08:29+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
