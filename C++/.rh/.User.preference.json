@@ -1,39 +1,44 @@
 {
   "recent-files::internal:document": [{
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Oct 25, 6:33 PM"
+  }, {
+    "title": "Arithmetic_operators",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Arithmetic_operators.htm",
+    "pinned": false,
+    "time": "Oct 25, 4:48 PM"
+  }, {
     "title": "Cycles",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
     "pinned": false,
-    "time": "Oct 25, 4:06 PM"
-  }, {
-    "title": "Arrays",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
-    "pinned": false,
-    "time": "Oct 25, 4:06 PM"
-  }, {
-    "title": "Operator_Switch",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Operator_Switch.htm",
-    "pinned": false,
-    "time": "Oct 25, 4:06 PM"
+    "time": "Oct 25, 4:48 PM"
   }, {
     "title": "Condition",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
     "pinned": false,
-    "time": "Oct 25, 3:57 PM"
+    "time": "Oct 25, 4:48 PM"
   }, {
     "title": "Variables",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
     "pinned": false,
-    "time": "Oct 25, 11:02 AM"
-  }, {
-    "title": "Data_type",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
-    "pinned": false,
-    "time": "Oct 25, 11:02 AM"
+    "time": "Oct 25, 4:48 PM"
   }, {
     "title": "ASCII_table",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
     "pinned": false,
-    "time": "Oct 8, 6:40 PM"
+    "time": "Oct 25, 4:48 PM"
+  }, {
+    "title": "Arrays",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
+    "pinned": false,
+    "time": "Oct 25, 4:48 PM"
+  }, {
+    "title": "Operator_Switch",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Operator_Switch.htm",
+    "pinned": false,
+    "time": "Oct 25, 4:48 PM"
   }, {
     "title": "CHM",
     "path": "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset",
@@ -121,7 +126,7 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2021-10-25T16:14:54+05:00",
+      "time": "2021-10-25T18:52:03+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
