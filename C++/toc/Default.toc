@@ -8,6 +8,7 @@
 <page href="../contents/Data_type.htm" format="html" processing-role="normal"></page>
 <book navtitle="Operators" format="html" processing-role="normal">
   <page href="../contents/Operators/Arithmetic_operators.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Operators/Сomparison_Operators.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Operators/Operator_Switch.htm" format="html" processing-role="normal"></page>
 </book>
 <book navtitle="Reference materials" format="html" processing-role="normal">

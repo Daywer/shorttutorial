@@ -1,14 +1,19 @@
 {
   "recent-files::internal:document": [{
-    "title": "Data_type",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "title": "Сomparison_Operators",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Сomparison_Operators.htm",
     "pinned": false,
-    "time": "Oct 25, 6:33 PM"
+    "time": "Oct 25, 7:16 PM"
   }, {
     "title": "Arithmetic_operators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Arithmetic_operators.htm",
     "pinned": false,
-    "time": "Oct 25, 4:48 PM"
+    "time": "Oct 25, 7:16 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Oct 25, 6:33 PM"
   }, {
     "title": "Cycles",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
@@ -126,11 +131,16 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2021-10-25T19:04:01+05:00",
+      "time": "2021-10-25T19:16:02+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
   "recent-files::internal:hyperlink": [{
+    "title": "Сomparison_Operators",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Сomparison_Operators.htm",
+    "pinned": false,
+    "time": "Oct 25, 7:08 PM"
+  }, {
     "title": "Variables",
     "path": "D:/Dev/Chm/C++/contents/Variables.htm",
     "pinned": false,
