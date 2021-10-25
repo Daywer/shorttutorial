@@ -1,29 +1,34 @@
 {
   "recent-files::internal:document": [{
-    "title": "Condition",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
+    "title": "Cycles",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
     "pinned": false,
-    "time": "Oct 8, 7:12 PM"
-  }, {
-    "title": "Data_type",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
-    "pinned": false,
-    "time": "Oct 8, 7:11 PM"
-  }, {
-    "title": "Variables",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
-    "pinned": false,
-    "time": "Oct 8, 7:11 PM"
+    "time": "Oct 25, 4:06 PM"
   }, {
     "title": "Arrays",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
     "pinned": false,
-    "time": "Oct 8, 7:09 PM"
+    "time": "Oct 25, 4:06 PM"
   }, {
-    "title": "Cycles",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
+    "title": "Operator_Switch",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Operator_Switch.htm",
     "pinned": false,
-    "time": "Oct 8, 7:09 PM"
+    "time": "Oct 25, 4:06 PM"
+  }, {
+    "title": "Condition",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
+    "pinned": false,
+    "time": "Oct 25, 3:57 PM"
+  }, {
+    "title": "Variables",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
+    "pinned": false,
+    "time": "Oct 25, 11:02 AM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Oct 25, 11:02 AM"
   }, {
     "title": "ASCII_table",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
@@ -34,11 +39,6 @@
     "path": "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset",
     "pinned": false,
     "time": "Oct 8, 6:29 PM"
-  }, {
-    "title": "Operator_Switch",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Operator_Switch.htm",
-    "pinned": false,
-    "time": "Oct 8, 6:16 PM"
   }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/C++/contents/Operators/Operator_Switch.htm",
@@ -121,7 +121,7 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2021-10-08T19:12:47+05:00",
+      "time": "2021-10-25T16:14:54+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },

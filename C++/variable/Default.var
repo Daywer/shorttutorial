@@ -4,12 +4,12 @@
     
 <title>Variables</title>
   
-<keydef keys="name_of_book">
-<topicmeta>
-<keywords>
-<keyword>C++ Шпаргалка</keyword></keywords></topicmeta></keydef>
 <keydef keys="Copyright">
 <topicmeta>
 <keywords>
 <keyword>Copyright © 2021 DAYWER.RU. All Rights Reserved. 
-</keyword></keywords></topicmeta></keydef></map>
+</keyword></keywords></topicmeta></keydef>
+<keydef keys="name_of_book">
+<topicmeta>
+<keywords>
+<keyword>C++ Шпаргалка</keyword></keywords></topicmeta></keydef></map>
