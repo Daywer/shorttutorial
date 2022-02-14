@@ -1,19 +1,29 @@
 {
   "recent-files::internal:document": [{
-    "title": "Arrays",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
-    "pinned": false,
-    "time": "Feb 14, 12:55 PM"
-  }, {
     "title": "Enumerators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Enumerators.htm",
     "pinned": false,
-    "time": "Feb 14, 12:46 PM"
+    "time": "Feb 14, 1:21 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Feb 14, 1:20 PM"
+  }, {
+    "title": "Condition",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
+    "pinned": false,
+    "time": "Feb 14, 1:20 PM"
   }, {
     "title": "Variables",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
     "pinned": false,
-    "time": "Feb 14, 12:46 PM"
+    "time": "Feb 14, 1:20 PM"
+  }, {
+    "title": "Arrays",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
+    "pinned": false,
+    "time": "Feb 14, 12:55 PM"
   }, {
     "title": "Cycles",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
@@ -22,11 +32,6 @@
   }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_Switch.htm",
-    "pinned": false,
-    "time": "Feb 14, 12:35 PM"
-  }, {
-    "title": "Condition",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Condition.htm",
     "pinned": false,
     "time": "Feb 14, 12:35 PM"
   }, {
@@ -54,11 +59,6 @@
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
     "pinned": false,
     "time": "Feb 14, 11:07 AM"
-  }, {
-    "title": "Data_type",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
-    "pinned": false,
-    "time": "Feb 14, 11:02 AM"
   }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/C++/contents/Operators/Operator_Switch.htm",
@@ -141,7 +141,7 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2022-02-14T12:48:51+05:00",
+      "time": "2022-02-14T13:24:45+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
