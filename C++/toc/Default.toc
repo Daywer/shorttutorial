@@ -2,6 +2,7 @@
 <map type="toc">
 <title>Table of Contents</title>
 <page href="../contents/Variables.htm" format="html" processing-role="normal"></page>
+<page href="../contents/Enumerators.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Arrays.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Condition.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Cycles.htm" format="html" processing-role="normal"></page>
