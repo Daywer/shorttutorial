@@ -121,3 +121,7 @@ ul.Circle {
 figure {
   margin-left: 0 px;
 }
+span.Blue_Bold {
+  color: #0000FF;
+  font-weight: bold;
+}
