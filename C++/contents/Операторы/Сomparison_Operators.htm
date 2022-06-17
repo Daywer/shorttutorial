@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Операторы сравнения</title>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+  <meta name="rh-authors" content="DAYWER.RU" />
+  <meta name="template" content="../assets/masterpages/book.htt" />
+  <meta http-equiv="Content-Language" content="ru-RU" />
+</head>
+<body>
+  <table border="0" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;min-height:10px;background-color:#99CCFF">
+    <colgroup>
+      <col style="width:100%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p><span data-keyref="name_of_book">C++ Шпаргалка</span></p>
+          <p style="text-align: left"><span style="font-size: 22px;"><b>Операторы сравнения</b></span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong></strong></p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse; width: 761px;">
+    <colgroup>
+      <col style="width: 90px;" />
+      <col style="width: 195px;" />
+      <col style="width: 71px;" />
+      <col style="width:25%" />
+      <col style="width:25%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td colspan="2" style="text-align: center; font-weight: bold; background-color: rgb(234, 236, 240);"><span>Операция (выражение)</span></td>
+        <td style="text-align: center; font-weight: bold; background-color: rgb(234, 236, 240);"><span>Оператор</span></td>
+        <td style="text-align: center;font-weight: bold;background-color: #EAECF0"><span>Синтаксис выражения</span></td>
+        <td style="text-align: center; font-weight: bold; background-color: rgb(234, 236, 240);">Перегружаемый</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Равенство</td>
+        <td style="text-align: center;">==</td>
+        <td style="text-align: center">a == b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Неравенство</td>
+        <td style="text-align: center;">!=</td>
+        <td style="text-align: center">a != b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Больше</td>
+        <td style="text-align: center;">&gt;</td>
+        <td style="text-align: center">a &gt; b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Меньше</td>
+        <td style="text-align: center;">&lt;</td>
+        <td style="text-align: center">a &lt; b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Больше или равно</td>
+        <td style="text-align: center;">&gt;=</td>
+        <td style="text-align: center">a &gt;= b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="">Меньше или равно</td>
+        <td style="text-align: center;">&lt;=</td>
+        <td style="text-align: center">a =&lt; b</td>
+        <td style="text-align: center;"><span style="text-align:center;">Да</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <p><span class="glosstext">Равенство</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 4, b=5;</span>    // переменной &quot;а&quot; присваивается значение 4, переменной &quot;b&quot; значение 5 </p>
+  <p>     <b>if (a == b) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">FALSE</span>&quot;. Так как сравнение двух чисел 4 и 5 вернуло результат <span style="font-weight:bold;">ЛОЖЬ</span>. Поскольку утверждение что 4 равно 5 ложно.</p>
+  <p> </p>
+  <p><span class="glosstext">Неравенство</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 4, b=5;</span>    // переменной &quot;а&quot; присваивается значение 4, переменной &quot;b&quot; значение 5</p>
+  <p>     <b>if (a != b) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">TRUE</span>&quot;. Так как сравнение двух чисел 4 и 5 вернуло результат <span style="font-weight:bold;">ИСТИНА</span>. Поскольку утверждение что 4 не равно 5 истинно.</p>
+  <p> </p>
+  <p><span class="glosstext">Больше</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 4, b=5;</span>    // переменной &quot;а&quot; присваивается значение 4, переменной &quot;b&quot; значение 5</p>
+  <p>     <b>if (a &gt; b) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">FALSE</span>&quot;. Так как сравнение двух чисел 4 и 5 вернуло результат <span style="font-weight:bold;">ЛОЖЬ</span>. Поскольку утверждение что 4 больше 5 ложно.</p>
+  <p> </p>
+  <p><span class="glosstext">Меньше</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 4, b=5;</span>    // переменной &quot;а&quot; присваивается значение 4, переменной &quot;b&quot; значение 5</p>
+  <p>     <b>if (a &lt; b) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">TRUE</span>&quot;. Так как сравнение двух чисел 4 и 5 вернуло результат <span style="font-weight:bold;">ИСТИНА</span>. Поскольку утверждение что 4 меньше 5 истинно.</p>
+  <p> </p>
+  <p><span class="glosstext">Больше или Равно</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 33;</span>  // переменной &quot;а&quot; присваивается значение 33</p>
+  <p>     <b>if (a &gt;= 10) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">TRUE</span>&quot;. Так как выражение истинно когда значение переменной &quot;а&quot; равно 10 или больше него. </p>
+  <p> </p>
+  <p><span class="glosstext">Меньше или Равно</span></p>
+  <p>    <span style="font-weight:bold;"> int a = 33;</span>  // переменной &quot;а&quot; присваивается значение 33</p>
+  <p>     <b>if (a &lt;= 10) std::cout &quot;TRUE&quot;; </b></p>
+  <p><b>                else </b></p>
+  <p><b><b>                      std::cout &quot;FALSE&quot;;</b></b></p>
+  <p>результатом будет вывод на консоль &quot;<span style="font-weight:bold;">FALSE</span>&quot;. Так как выражение вернет результат <span style="font-weight:bold;">ИСТИНА </span>когда значение переменной &quot;а&quot; либо равно 10, либо  меньше него. Во всех остальных случаях выражение вернет результат <span style="font-weight:bold;">ЛОЖЬ</span>.</p>
+  <hr />
+  <p><strong></strong><span data-keyref="Copyright">Copyright © 2021 DAYWER.RU. All Rights Reserved. </span></p>
+</body>
+</html>

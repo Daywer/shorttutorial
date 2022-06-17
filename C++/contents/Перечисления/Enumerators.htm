@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Enum</title>
+  <meta name="topic-status" content="Draft" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="template" content="../assets/masterpages/book.htt" />
+  <meta http-equiv="Content-Language" content="ru-RU" />
+</head>
+<body>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;min-height:10px;background-color:#99CCFF">
+    <colgroup>
+      <col style="width:100%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p><span data-keyref="name_of_book">C++ Шпаргалка</span></p>
+          <p><span style="font-weight:bold;"><span style="font-size:1px;"><span style="text-align:center;font-size:22px">Перечисления</span></span></span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong></strong></p>
+  <p><span style="font-size:1px;"><span style="font-weight:bold;font-size:16px"></span></span><span><span style="font-weight:bold;">Перечисление </span>— это пользовательский тип, состоящий из набора целочисленных констант, называемых перечислителями.</span></p>
+  <p> </p>
+  <p>Представьте что у вас есть переменная, которая может принимать только предопределенные значения.</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Colors</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">RED,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">GREEN,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">BLUE</span></span></p>
+  <p><span style="font-weight:bold;">};</span></p>
+  <p>В данном примере создан новый тип данных с именем <span style="font-weight:bold;">Colors</span>.  Теперь объекты типа Colors смогут принимать значения RED, GREEN или BLUE.</p>
+  <p>Пример, объявим переменную с именем MyColor и типом Colors, и сразу присвоим ей предопределенное значение:</p>
+  <p><span style="color:#0000ff;"></span><span style="color:#0000ff;">Colors</span><span> </span>MyColor<span> = </span>GREEN<span>;</span>   // Так правильно.</p>
+  <p><span style="color:#0000ff;">Colors </span>MyColor = BLACK;    // А эта строка вызовет ошибку компиляции, так как BLACK не существует в перечислении</p>
+  <p> </p>
+  <p>Создадим перечислитель и объект и выведем значение через cout:</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Colors</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="margin-left:12px;"><span style="font-weight:bold;">RED,</span></span></p>
+  <p><span style="margin-left:12px;"><span style="font-weight:bold;">GREEN,</span></span></p>
+  <p><span style="margin-left:12px;"><span style="font-weight:bold;">BLUE</span></span></p>
+  <p><span style="font-weight:bold;">} MyColor = RED;</span></p>
+  <p><span style="color:#ff0000;">ОБРАТИТЕ ВНИМАНИЕ!</span> Мы создали перечисление Colors и тут же создали объект MyColor типа Colors и присвоили ему значение RED. И все это одной записью.</p>
+  <p>При выполнении следующей строки будет выведен ноль.</p>
+  <p> cout &lt;&lt; MyColor; </p>
+  <p> </p>
+  <p><span>Дело в том, что каждому перечислителю автоматически присваивается целочисленное значение в зависимости от его позиции в списке перечисления. По умолчанию, первому перечислителю присваивается целое число<span> </span></span><code>0</code><span>, а каждому следующему — на единицу больше, чем предыдущему:</span></p>
+  <p> </p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Colors</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;"> <span style="margin-left:8px;">COLOR_YELLOW,    // присваивается 0</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"> COLOR_WHITE,      // присваивается 1</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"> COLOR_ORANGE,  // присваивается 2</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"> COLOR_GREEN,     // присваивается 3</span></span><span style="font-weight:bold;"><span style="margin-left:8px;"> </span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"></span></span><span style="font-weight:bold">};</span></p>
+  <p> </p>
+  <p><span>Можно и самому определять значения перечислителей. Они могут быть как положительными, так и отрицательными, или вообще иметь аналогичные другим перечислителям значения. Любые, не определенные вами перечислители, будут иметь значения на единицу больше, чем значения предыдущих перечислителей. Например:</span></p>
+  <p> </p>
+  <p><span>// Определяем новый перечисляемый тип Cars</span></p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Cars</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;">    CAR_CHEVROLET= -4,</span></p>
+  <p><span style="font-weight:bold;">    CAR_AROMEO, // присваивается -3</span></p>
+  <p><span style="font-weight:bold;">    CAR_TOYOTA, // присваивается -2</span></p>
+  <p><span style="font-weight:bold;">    CAR_JEEP = 6,</span></p>
+  <p><span style="font-weight:bold;">    CAR_NIVA = 6, // имеет то же значение, что и CAR_JEEP</span></p>
+  <p><span style="font-weight:bold;">    CAR_LADA       // присваивается 7</span></p>
+  <p><span style="font-weight:bold;">};</span></p>
+  <p>Но лучше не вмешиваться в значения перечислительей без весомой на то причины.</p>
+  <p> </p>
+  <p>Поскольку перечислители возвращают значения целого типа, то значения перечислений можно присваивать переменным целого типа, без создания объекта.</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">int </span>a = CAR_LADA; </span> // Такая запись допустима. Переменной a будет присвоено значение целого типа - 7.</p>
+  <p> </p>
+  <p><span style="color:#ff0000;">ВНИМАНИЕ!</span> Все перечислители находятся в одной области видимости. Перечислитель использованное в одном перечислении , нельзя заново создать в другом.</p>
+  <p>НАПРИМЕР:</p>
+  <p> </p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Colors_1</span></p>
+  <p><span style="font-weight:bold;">{ </span><span style="font-weight:bold;"> RED, WHITE </span><span style="font-weight:bold">};</span></p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum </span>Colors_2</span></p>
+  <p><span style="font-weight:bold;">{</span><span style="font-weight:bold;"><span style="margin-left:8px;">YELLOW,   WHITE  </span></span><span style="font-weight:bold">};</span></p>
+  <p>Так как WHITE находится в обоих перечислениях, то это вызовет ошибку компиляции.</p>
+  <p> </p>
+  <p>Перечисления очень важны для улучшения читаемости кода. </p>
+  <p>Ведь такую запись:</p>
+  <p style="margin-left: 8px">if ( erorr_code == OPEN_ERORR )   ;   // </p>
+  <p>гораздо легче воспринимать, чем:</p>
+  <p style="margin-left: 8px">if ( erorr_code == 1)   ;   // </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <hr />
+  <p><span data-keyref="Copyright" style="font-style: italic">Copyright © 2021 DAYWER.RU. All Rights Reserved. </span></p>
+  <p><strong></strong></p>
+</body>
+</html>

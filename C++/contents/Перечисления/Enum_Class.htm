@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Enum Class</title>
+  <meta name="topic-status" content="Draft" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="template" content="../assets/masterpages/book.htt" />
+  <meta http-equiv="Content-Language" content="ru-RU" />
+</head>
+<body>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;min-height:10px;background-color:#99CCFF">
+    <colgroup>
+      <col style="width:100%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p><span data-keyref="name_of_book">C++ Шпаргалка</span></p>
+          <p><span style="font-weight:bold;"><span style="font-size:1px;"><span style="text-align:center;font-size:22px">Перечисления с областью видимости</span></span></span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong></strong></p>
+  <p>Перед этим материалом, изучите  &quot;Перечислители&quot; &gt;&gt;  <span style="font-weight:bold;"><a data-xref="{title}" href="Enumerators.htm" target="_self">Enum</a></span></p>
+  <p> </p>
+  <p>Данные перечислитель отличается тем, что перечислители с одинаковыми именами теперь можно использовать в разных перечислениях, но при обращении </p>
+  <p>Указывать на пространство имен.</p>
+  <p>Пример:</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum class </span>Colors1</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">YELLOW,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">ORANGE,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">BLUE</span></span></p>
+  <p><span style="font-weight:bold;">};</span></p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">enum class </span>Colors2</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">RED,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">GREEN,</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:4px;">BLUE</span></span></p>
+  <p><span style="font-weight:bold;">};</span></p>
+  <p><span style="font-weight:bold;">Colors2 mycolors = Colors2::Blue;</span></p>
+  <p>Мы видим что Blue принадлежит перечислению <span style="color:#0000ff;font-weight:bold">Colors1</span> и <span style="color:#0000ff;font-weight:bold">Colors2</span>. Поэтому  запись <span class="Blue_Bold">&quot;<span style="font-weight:bold;">Colors2::Blue</span>&quot;</span> указывает на то </p>
+  <p>что используется перечисление <span class="Blue_Bold">Blue </span>из <span class="Blue_Bold">Colors2</span></p>
+  <p><span style="font-weight:bold;color:#FF0000">!ВНИМАНИЕ:</span></p>
+  <p><span style="font-weight:bold;">  1.  У нас появилось ключевое слово <span style="color:#0000ff;">class</span>.</span></p>
+  <p><span style="font-weight:bold;">  2.  Мы присвоили объекту <span style="color:#0000ff;">mycolors</span>, имеющиему тип данных <span style="color:#0000ff;">Colors2</span>, значение <span style="color:#0000ff;">Blue </span>из области видимости <span style="color:#0000ff;">Colors2</span>. </span></p>
+  <p><span style="font-weight:bold;">  3.  Мы использовали оператор расширения области видимости</span> <span style="color:#0000ff;"><span style="font-weight:bold;"><span style="font-weight: bold;">::</span></span></span></p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <hr />
+  <p><span data-keyref="Copyright" style="font-style: italic">Copyright © 2021 DAYWER.RU. All Rights Reserved. </span></p>
+  <p><strong></strong></p>
+</body>
+</html>

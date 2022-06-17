@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Структуры</title>
+  <meta name="topic-status" content="Draft" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <link rel="stylesheet" href="assets/css/default.css" type="text/css" />
+  <meta name="template" content="assets/masterpages/book.htt" />
+  <meta http-equiv="Content-Language" content="ru-RU" />
+</head>
+<body>
+  <p>енами</p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;min-height:10px;background-color:#99CCFF">
+    <colgroup>
+      <col style="width:100%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p><span data-keyref="name_of_book">C++ Шпаргалка</span></p>
+          <p><span style="font-weight:bold;"><span style="font-size:1px;"><span style="text-align:center;font-size:22px">Структуры</span></span></span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong></strong></p>
+  <p><span style="font-size:1px;"><span style="font-weight:bold;font-size:16px"></span></span><span><span style="font-weight:bold;">Структура </span><span>- это совокупность объектов, объединенных одним именем, предоставляющая общепринятый способ совместного хранения информации. Объекты, находящиеся внутри структуры, называют членами структуры или полями структуры. Структура является своего рода шаблоном, ведь работаем мы не с самой структурой, а с объектом созданным на основе структуры.</span></span></p>
+  <p>Ниже мы создали структуру с именем Man, с тремя переменными разного типа. Этим действием мы создали новый пользовательский тип данных с именем Man.</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">struct </span>Man</span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="margin-left:8px;"><span style="font-weight:bold;"><span style="color:#0000ff;">int </span>id;</span></span></p>
+  <p><span style="margin-left:8px;"><span style="font-weight:bold;"><span style="color: #0000FF">string</span> name;</span></span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"><span style="color:#0000ff;">int </span>age;</span></span></p>
+  <p><span style="font-weight:bold;">}</span></p>
+  <p>Теперь создадим объект типа Man и поработаем с его полями.</p>
+  <p> </p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">Man </span>Human1 ;</span>                                  // Содаём новый объект с именем Human1 и типом Man</p>
+  <p><span style="font-weight:bold;">Human1.id = 1;</span>                                 //  Идентификатор</p>
+  <p><span style="font-weight:bold;">Human1.name = &quot;John Smith&quot;;</span>    // Имя</p>
+  <p><span style="font-weight:bold;">Human1.age = 37;</span>                           // Возраст.</p>
+  <p>Доступ к членам структуры осуществляется через точку. Сначала пишется имя объекта,  затем имя члена.</p>
+  <p> </p>
+  <p>Такой объект можно инициализировать при объявлении как и любой объект фундаментального типа. Создадим для примера два объекта типа Man.</p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">Man </span>Human1{1, &quot;John Smith&quot;, 37},  </span>  // id =1, name = &quot;John Smith&quot;, age = 37</p>
+  <p>         <span style="font-weight:bold;">Human2{2, &quot;AlanSmith&quot;, 39}; </span>    // id =2, name = &quot;Alan Smith&quot;, age = 39</p>
+  <p>Мы использовали uniform-инициализацию  объектов. Обратите внимание, что каждая переменная получила свое значение согласно порядку расположения их в структуре.</p>
+  <p><br />
+    Членом структуры сможет быть объект любого типа, как фундаментального, так и пользовательского. Соответственно членом структуры может быть другая структура:</p>
+  <p> </p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">struct Man</span></span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="font-weight:bold;"><span style="margin-left:8px;"><span style="color:#0000ff;">string </span>name;</span></span></p>
+  <p style="margin-left: 8px"><span style="font-weight:bold;"><span style="color:#0000ff;">int </span>age;</span></p>
+  <p><span style="font-weight:bold;">}</span></p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">struct List</span></span></p>
+  <p><span style="font-weight:bold;">{</span></p>
+  <p><span style="margin-left:8px;"><span style="font-weight:bold;"><span style="color:#0000ff;">int </span>id;</span></span></p>
+  <p style="margin-left: 8px"><span style="font-weight:bold;"><span style="color:#0000ff;">Man </span>Data;</span>  // Членом структуры является структура Man</p>
+  <p><span style="font-weight:bold;">}</span></p>
+  <p><span style="font-weight:bold;"><span style="color:#0000ff;">List </span>ID1;    // создаем объект типа List</span></p>
+  <p><span style="font-weight:bold;">ID1.id=1;                                         <span style="font-weight:bold;">// Доступ к полю структуры List</span></span></p>
+  <p><span style="font-weight:bold;">ID1.Data.name=&quot;Alan Smith&quot;;  // Доступ к полю вложенной структуры тип Man</span></p>
+  <p><span style="font-weight:bold;">ID1.Data.age=33;                         <span style="font-weight:bold;">// Доступ к полю вложенной структуры типа Man</span></span></p>
+  <p>Обратитие внимание как мы обращаемся к члену вложенной структуры. Сначала пишем имя объекта основной структуры, через точку имя вложенной структуры и еще через точку имя члена вложеной структуры.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <hr />
+  <p><span data-keyref="Copyright" style="font-style: italic">Copyright © 2021 DAYWER.RU. All Rights Reserved. </span></p>
+  <p><strong></strong></p>
+</body>
+</html>
