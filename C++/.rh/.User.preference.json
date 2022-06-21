@@ -1,29 +1,29 @@
 {
   "recent-files::internal:document": [{
+    "title": "Operator_BREAK_CONTINUE",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_BREAK_CONTINUE.htm",
+    "pinned": false,
+    "time": "Jun 21, 3:49 PM"
+  }, {
+    "title": "Operator_Switch",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_Switch.htm",
+    "pinned": false,
+    "time": "Jun 21, 3:43 PM"
+  }, {
+    "title": "Enum_Class",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enum_Class.htm",
+    "pinned": false,
+    "time": "Jun 21, 3:33 PM"
+  }, {
     "title": "default",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/assets/css/default.css",
     "pinned": false,
     "time": "Jun 17, 4:54 PM"
   }, {
-    "title": "Enum_Class",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enum_Class.htm",
-    "pinned": false,
-    "time": "Jun 17, 4:49 PM"
-  }, {
     "title": "Enumerators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enumerators.htm",
     "pinned": false,
     "time": "Jun 17, 4:48 PM"
-  }, {
-    "title": "Operator_BREAK_CONTINUE",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_BREAK_CONTINUE.htm",
-    "pinned": false,
-    "time": "Jun 17, 4:45 PM"
-  }, {
-    "title": "Operator_Switch",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_Switch.htm",
-    "pinned": false,
-    "time": "Jun 17, 4:45 PM"
   }, {
     "title": "Сomparison_Operators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Сomparison_Operators.htm",
@@ -141,7 +141,7 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2022-06-17T16:09:41+05:00",
+      "time": "2022-06-21T15:51:49+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
