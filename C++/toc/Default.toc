@@ -9,6 +9,7 @@
 <page href="../contents/Arrays.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Condition.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Cycles.htm" format="html" processing-role="normal"></page>
+<page href="../contents/Functions.htm" format="html" processing-role="normal"></page>
 <page href="../contents/Data_type.htm" format="html" processing-role="normal"></page>
 <book navtitle="Операторы" format="html" processing-role="normal">
   <page href="../contents/Операторы/Arithmetic_operators.htm" format="html" processing-role="normal"></page>
