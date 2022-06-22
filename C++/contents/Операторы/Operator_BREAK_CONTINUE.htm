@@ -34,33 +34,45 @@
   <p><span style="font-weight:bold;">   cout &lt;&lt; i &lt;&lt; endl;</span></p>
   <p><span style="font-weight:bold;">   if (i == 5) break; </span></p>
   <p><span style="font-weight:bold;">}</span></p>
-  <p>Как только i станет равным пяти по условию, будет вызван оператор break и выполнение цикла будет прервано. Программа перейдет к строке следующей за циклом.</p>
-  <p>Оператор <span class="Blue_Bold">break </span>прерывает так же работу циклов <span class="Blue_Bold"><a data-xref="{bookmarkText}" href="../Cycles.htm#WHILE">WHILE</a></span> и <span class="Blue_Bold">DO/WHILE</span>.</p>
+  <p>Как только i станет равным пяти по условию, будет вызван оператор <span class="expandtext">break</span> и выполнение цикла будет прервано. Программа перейдет к строке следующей за циклом.</p>
   <p> </p>
   <h3><a id="SWITCH/BREAK"></a>Пример с оператором <span style="font-weight:bold;"><span style="color:#0000ff;">SWITCH:</span></span></h3>
   <p><span style="font-weight:bold;">switch ( x )</span>        // где &quot;x&quot; переменная целого типа</p>
   <p><span style="font-weight:bold;">{</span></p>
-  <p><span style="font-weight:bold;">    case  1:</span>        cout &lt;&lt; 1 &lt;&lt; endl; </p>
+  <p><span style="font-weight:bold;">    case  1:</span>        std::cout &lt;&lt; 1 &lt;&lt; endl; </p>
   <p>                         break;</p>
-  <p><span style="font-weight:bold;">    case  2:</span>        cout &lt;&lt; 2 &lt;&lt; endl; </p>
+  <p><span style="font-weight:bold;">    case  2:</span>        std::cout &lt;&lt; 2 &lt;&lt; endl; </p>
   <p>                         break;<span style="font-weight:bold;">   </span></p>
-  <p><span style="font-weight:bold;">    case  3:</span>        cout &lt;&lt; 3 &lt;&lt; endl; </p>
+  <p><span style="font-weight:bold;">    case  3:</span>        std::cout &lt;&lt; 3 &lt;&lt; endl; </p>
   <p>                         break;</p>
   <p><span style="font-weight:bold;"></span></p>
-  <p><span style="font-weight:bold;">    case  4:</span>        cout &lt;&lt; 4 &lt;&lt; endl; </p>
+  <p><span style="font-weight:bold;">    case  4:</span>        std::cout &lt;&lt; 4 &lt;&lt; endl; </p>
   <p>                         break;</p>
   <p><span style="font-weight:bold;">    default:</span>         //  если x не равно ни одному из выше перечисленного</p>
-  <p>                        cout &lt;&lt; &quot;Нет совпадений&quot;;</p>
+  <p>                         std::cout &lt;&lt; &quot;Нет совпадений&quot;;</p>
   <p><span style="font-weight:bold;"></span></p>
   <p><span style="font-weight:bold;">}</span></p>
-  <p>Как показано выше оператор Break стоит после каждого вхождения.  Сделано это для того чтобы прерывать работу оператора Switch после необходимого совпадения. </p>
-  <p>Разберем на примере. Допустим x равен 3. Тогда оператор Switch пропустит Case 1 и Case 2, но выполнит код под меткой Case 3. Так как вхождение найдено, оператор Switch больше не занимается поиском и выполняет все строчки кода ниже. То есть будет выполнены строки:</p>
-  <p>cout &lt;&lt; 3 &lt;&lt; endl;  </p>
-  <p>cout &lt;&lt; 4 &lt;&lt; endl; </p>
+  <p>Как показано выше оператор <span class="expandtext">break</span> стоит после каждого вхождения.  Сделано это для того чтобы прерывать работу оператора <span class="expandtext">switch </span>после необходимого совпадения. </p>
+  <p>Разберем на примере. Допустим <span class="expandtext">x</span> равен 3. Тогда оператор <span class="Blue_Bold"><span class="expandtext">switch </span></span>пропустит <span class="expandtext">case 1</span> и <span class="expandtext">case 2</span>, но выполнит код под меткой <span class="expandtext">case 3</span>. Так как вхождение найдено, оператор <span class="expandtext">switch </span>больше не занимается поиском и выполняет все строчки кода ниже. То есть будет выполнены строки:</p>
+  <p>std::cout &lt;&lt; 3 &lt;&lt; endl;  </p>
+  <p>std::cout &lt;&lt; 4 &lt;&lt; endl; </p>
   <p>Это является особенностью работы оператора <span style="color:#0000ff;"><span style="font-weight:bold;">switch</span></span>, поэтому программист должен сам обеспечить прерывание работы при помощи оператора <span style="color:#0000ff;"><span style="font-weight:bold;">break</span></span>.</p>
   <p> </p>
   <p> </p>
-  <h3>Оператор Continue</h3>
+  <h3>Оператор <span style="color:#0000ff;">CONTINUE</span></h3>
+  <p>Оператор Continue - используется в циклах (FOR, WHILE, DO/WHILE) , когда требуется немедленно перейти к следущему шагу (итерации).</p>
+  <p>Например:</p>
+  <p><span style="font-weight:bold;"><span class="Blue_Bold">int </span>count = 0;</span></p>
+  <p><span style="font-weight:bold;">do // начало цикла do while</span></p>
+  <p><span style="font-weight:bold;">  {</span></p>
+  <p><span style="font-weight:bold;">     continue; </span>  // пропускаем весь код ниже и переходим к следующему шагу цикла.</p>
+  <p><span style="font-weight:bold;">     count++;</span></p>
+  <p><span style="font-weight:bold;">  }</span></p>
+  <p><span style="font-weight:bold;">while ( count  &lt;  10 )</span></p>
+  <p>В данном примере переход к следующему шагу будет осуществлен до операции инкремента переменной <span class="Blue_Bold">count</span>.  count никогда не будет увеличиваться,</p>
+  <p>и цикл будет выполняться бесконечно.</p>
+  <p> </p>
+  <p> </p>
   <p> </p>
   <hr />
   <p><strong></strong><span data-keyref="Copyright">Copyright © 2021 DAYWER.RU. All Rights Reserved. </span></p>
