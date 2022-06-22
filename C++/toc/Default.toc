@@ -13,6 +13,7 @@
 <page href="../contents/Data_type.htm" format="html" processing-role="normal"></page>
 <book navtitle="Операторы" format="html" processing-role="normal">
   <page href="../contents/Операторы/Arithmetic_operators.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Операторы/Логические_операторы.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Операторы/Сomparison_Operators.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Операторы/Operator_Switch.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Операторы/Operator_BREAK_CONTINUE.htm" format="html" processing-role="normal"></page>
