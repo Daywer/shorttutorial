@@ -8,9 +8,6 @@
       <path>../../toc/Default.toc</path>
       <name>Default</name>
     </toc>
-    <masterpage>
-      <path>../../contents/assets/masterpages/book.htt</path>
-    </masterpage>
     <brs type="array"></brs>
     <includereftopics type="boolean">true</includereftopics>
     <includeExpandingText type="boolean">false</includeExpandingText>
@@ -31,4 +28,11 @@
     <showSpeclChars type="boolean">false</showSpeclChars>
     <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
   </search>
+  <template>
+    <path>../templates/Word Document/word.tpl</path>
+  </template>
+  <excludeTopicCss type="boolean">true</excludeTopicCss>
+  <pdf>
+    <splitPdf type="boolean">false</splitPdf>
+  </pdf>
 </preset>

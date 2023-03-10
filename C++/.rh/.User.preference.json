@@ -1,19 +1,49 @@
 {
   "recent-files::internal:document": [{
-    "title": "ASCII_table",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
+    "title": "Variables",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
     "pinned": false,
-    "time": "Jun 22, 4:22 PM"
+    "time": "Feb 22, 9:44 AM"
+  }, {
+    "title": "Arrays",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
+    "pinned": false,
+    "time": "Feb 22, 9:44 AM"
+  }, {
+    "title": "Enumerators",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enumerators.htm",
+    "pinned": false,
+    "time": "Jan 30, 2:04 PM"
+  }, {
+    "title": "Enum_Class",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enum_Class.htm",
+    "pinned": false,
+    "time": "Jan 30, 2:02 PM"
+  }, {
+    "title": "Functions",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Functions.htm",
+    "pinned": false,
+    "time": "Jul 6, 3:46 PM"
   }, {
     "title": "Operator_BREAK_CONTINUE",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_BREAK_CONTINUE.htm",
     "pinned": false,
-    "time": "Jun 22, 4:22 PM"
+    "time": "Jun 22, 5:08 PM"
   }, {
     "title": "Operator_Switch",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Operator_Switch.htm",
     "pinned": false,
-    "time": "Jun 22, 4:21 PM"
+    "time": "Jun 22, 5:08 PM"
+  }, {
+    "title": "Data_type",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
+    "pinned": false,
+    "time": "Jun 22, 5:07 PM"
+  }, {
+    "title": "ASCII_table",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Reference_materials/ASCII_table.htm",
+    "pinned": false,
+    "time": "Jun 22, 5:03 PM"
   }, {
     "title": "Сomparison_Operators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Сomparison_Operators.htm",
@@ -25,30 +55,10 @@
     "pinned": false,
     "time": "Jun 22, 4:21 PM"
   }, {
-    "title": "Enum_Class",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enum_Class.htm",
-    "pinned": false,
-    "time": "Jun 22, 4:21 PM"
-  }, {
-    "title": "Functions",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Functions.htm",
-    "pinned": false,
-    "time": "Jun 22, 2:45 PM"
-  }, {
-    "title": "Data_type",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Data_type.htm",
-    "pinned": false,
-    "time": "Jun 22, 2:45 PM"
-  }, {
     "title": "Arithmetic_operators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Arithmetic_operators.htm",
     "pinned": false,
     "time": "Jun 22, 2:23 PM"
-  }, {
-    "title": "Arrays",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Arrays.htm",
-    "pinned": false,
-    "time": "Jun 22, 2:15 PM"
   }, {
     "title": "Cycles",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
@@ -70,11 +80,6 @@
     "pinned": false,
     "time": "Jun 22, 2:10 PM"
   }, {
-    "title": "Variables",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Variables.htm",
-    "pinned": false,
-    "time": "Jun 21, 6:12 PM"
-  }, {
     "title": "default",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/assets/css/default.css",
     "pinned": false,
@@ -84,11 +89,6 @@
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Structure.htm",
     "pinned": false,
     "time": "Jun 21, 4:53 PM"
-  }, {
-    "title": "Enumerators",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Перечисления/Enumerators.htm",
-    "pinned": false,
-    "time": "Jun 17, 4:48 PM"
   }, {
     "title": "CHM",
     "path": "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset",
@@ -141,11 +141,16 @@
     "D:/Dev/Chm/shorttutorial/C++/publish/presets/CHM.preset": {
       "exists": true,
       "path": "D:/Dev/Chm/shorttutorial/output/C++/C++.chm",
-      "time": "2022-06-22T16:14:20+05:00",
+      "time": "2022-06-22T17:10:14+05:00",
       "logFile": "C:/Users/User/AppData/Local/Temp/RHTMP/CHM.ehtml"
     }
   },
   "recent-files::internal:hyperlink": [{
+    "title": "Structure",
+    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Structure.htm",
+    "pinned": false,
+    "time": "Jun 22, 5:05 PM"
+  }, {
     "title": "Логические_операторы",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Операторы/Логические_операторы.htm",
     "pinned": false,
@@ -175,11 +180,6 @@
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Cycles.htm",
     "pinned": false,
     "time": "Feb 14, 3:43 PM"
-  }, {
-    "title": "Structure",
-    "path": "D:/Dev/Chm/shorttutorial/C++/contents/Structure.htm",
-    "pinned": false,
-    "time": "Feb 14, 1:49 PM"
   }, {
     "title": "Сomparison_Operators",
     "path": "D:/Dev/Chm/shorttutorial/C++/contents/Operators/Сomparison_Operators.htm",
